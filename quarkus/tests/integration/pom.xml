@@ -126,6 +126,7 @@
                     <systemPropertyVariables>
                         <kc.quarkus.tests.dist>${kc.quarkus.tests.dist}</kc.quarkus.tests.dist>
                         <java.util.logging.manager>org.jboss.logmanager.LogManager</java.util.logging.manager>
+                        <java.io.tmpdir>${project.build.directory}</java.io.tmpdir>
                     </systemPropertyVariables>
                     <groups>${kc.quarkus.tests.groups}</groups>
                 </configuration>
